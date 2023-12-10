@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+
+    <style type="text/css">
+        .style1 {
+            border-width: 0;
+            border: solid gray 10px;
+            width: 73%;
+            border-radius: 5px;
+            margin: 5px auto;
+            background: blue;
+            color: #CC2255;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .style2 {
+            border-width: 0;
+            border: solid gray 10px;
+            width: 75%;
+            border-radius: 5px;
+            margin: 5px auto;
+            background: white;
+
+        }
+    </style>
+</head>
+
+<b>
+    <center class="style1">Online Appointment
+</b></center>
+
+<body>
+    <form action="OnlineBooking.php" method="post">
+        <table class="style2" width="550px">
+
+            <tr>
+                <td>FirstName: </td>
+                <td><input type="text" name="firstname" placeholder="FirstName" required></td>
+                <td>NHS Number: </td>
+                <td><input type="text" name="nhsno" placeholder="NHS No" required></td>
+            </tr>
+
+            <tr>
+                <td>Surname: </td>
+                <td><input type="text" name="surname" placeholder="Surname" required></td>
+                <td>Patient Ref: </td>
+                <td><input type="text" name="patientno" placeholder="Patient No" required></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth: </td>
+                <td><input type="text" name="dateofbirth" placeholder="DOB" required></td>
+                <td>Medical Center: </td>
+                <td><input type="text" name="medical_center" placeholder="Medical Center" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender: </td>
+                <td><input type="radio" name="gender" value="m" required>Male
+                    <input type="radio" name="gender" value="f" required>Female
+                </td>
+
+                <td>Center Address: </td>
+                <td><input type="text" name="cenAddress" placeholder="Center Address"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number: </td>
+                <td><input type="text" name="phonenumber" placeholder="Phone Number" required></td>
+                <td>Center Phone No: </td>
+                <td><input type="text" name="center_phone_no" placeholder="Center Phone Number" required></td>
+            </tr>
+
+            <tr>
+                <td>E-mail Address: </td>
+                <td><input type="text" name="email" placeholder="Emal Address" required></td>
+                <td>Date Registered: </td>
+                <td><input type="text" name="date_registered" placeholder="Date Registered" required></td>
+            </tr>
+
+            <tr>
+                <td>Address: </td>
+                <td><input type="text" name="address" placeholder="Address" required></td>
+
+                <td><b><u>Patient Medication History</u></b></td>
+
+
+            </tr>
+
+            <tr>
+                <td>City: </td>
+                <td><input type="text" name="city" placeholder="City" required></td>
+                <td>Medication No: </td>
+                <td><input type="text" name="MedicationNo" placeholder="Medication No." required></td>
+            </tr>
+
+            <tr>
+                <td>Borough: </td>
+                <td><input type="text" name="borough" placeholder="Phone Number" required></td>
+                <td>Start Date: </td>
+                <td><input type="text" name="start_date" placeholder="Start Date" required></td>
+            </tr>
+
+            <tr>
+                <td>Post Code: </td>
+                <td><input type="text" name="postcode" placeholder="Postal Code" required></td>
+                <td>Finish Date: </td>
+                <td><input type="text" name="fdate" placeholder="Finish Date" required></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" value="Submit">
+                    <input type="reset" value="Reset"></td>
+            </tr>
+
+        </table>
+    </form>
+
+    <hr size=10 color=blue width=75%>
+    <hr size=10 color=red width=75%>
+    <hr size=10 color=gray width=75%>
+
+
+</body>
+
+</html>
